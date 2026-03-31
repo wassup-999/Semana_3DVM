@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     //movimiento
     public float moveSpeed = 5f;
     public float rotationSpeed = 5f;
-    //Salto
+    //Salto y sistema gravedad
     public float gravity = -9.8f;
     public float verticalVelocity = 0f;
     public float jumpForce = 10f;
