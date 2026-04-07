@@ -73,9 +73,6 @@ public class PlayerController : MonoBehaviour
                 IsDashing = false;
             }
         }
-
-
-
         controller.Move(moveDir * Time.deltaTime);
     }
     
